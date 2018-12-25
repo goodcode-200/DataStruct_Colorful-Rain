@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Rain1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSP2E95.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Rain1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp"
+]
+Creating command line "cl.exe @C:\Users\asus\AppData\Local\Temp\RSP2E95.tmp" 
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSP2E96.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Rain1.pdb" /debug /machine:I386 /out:"Debug/Rain1.exe" /pdbtype:sept 
+".\Debug\graphy.obj"
+]
+Creating command line "link.exe @C:\Users\asus\AppData\Local\Temp\RSP2E96.tmp"
+<h3>Output Window</h3>
+Compiling...
+graphy.cpp
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(11) : warning C4005: 'MAX' : macro redefinition
+        d:\programing_file_data\vc++6.0项目集\colorful_rain\rain1\graphy.cpp(0) : see previous definition of 'MAX'
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(133) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(133) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(134) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(134) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(135) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(135) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(136) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(136) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(137) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(137) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(138) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(138) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(139) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(139) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(140) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(140) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(141) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(141) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(142) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\Programing_file_data\VC++6.0项目集\Colorful_rain\Rain1\graphy.cpp(142) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+Rain1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

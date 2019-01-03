@@ -6,18 +6,18 @@
 --------------------Configuration: Rain1 - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSP6D5F.tmp" with contents
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSP2C95.tmp" with contents
 [
 /nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Rain1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
 "D:\Programing_file_data\Git²Ö¿â\DataStruct_Colorful-Rain\Rain1\graphy.cpp"
 ]
-Creating command line "cl.exe @C:\Users\asus\AppData\Local\Temp\RSP6D5F.tmp" 
-Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSP6D60.tmp" with contents
+Creating command line "cl.exe @C:\Users\asus\AppData\Local\Temp\RSP2C95.tmp" 
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSP2C96.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Rain1.pdb" /debug /machine:I386 /out:"Debug/Rain1.exe" /pdbtype:sept 
 ".\Debug\graphy.obj"
 ]
-Creating command line "link.exe @C:\Users\asus\AppData\Local\Temp\RSP6D60.tmp"
+Creating command line "link.exe @C:\Users\asus\AppData\Local\Temp\RSP2C96.tmp"
 <h3>Output Window</h3>
 Compiling...
 graphy.cpp

@@ -47,15 +47,6 @@ typedef struct Rain {
 	bool Draw_or_not;  //控制雨的稠密程度时引入的控制标记，表示这滴雨是否应该被绘制
 }Rain;
 Rain graph[MAX];
-typedef struct Leaf{
-	int left;
-	int top;
-	int right;
-	int bottom;
-	int x1,y1,x2,y2,x3,y3,x4,y4;
-	COLORREF fillcolor;
-	COLORREF linecolor;
-}Leaf;
 typedef struct Thunder
 {
     int x0, y0;//顶点位置
@@ -290,7 +281,6 @@ void Rain_quiet(int i)
 		{
 			if(graph[i].top<650) graph[i].ID=2;  //分两段清除
 			else if(graph[i].top>=650) graph[i].ID =1;  //只一段清除，用池塘色填充
-			else graph[i].ID = 0;   //即清除雨线全部,用黑色填充
 		}
 		else graph[i].ID=0;
 	}
@@ -313,9 +303,8 @@ void Rain_quiet(int i)
 		}
 		else
 		{
-			setfillcolor(graph[i].color);//填充随机颜色(雨滴内) 
-			setlinecolor(graph[i].color);//填充随机颜色(雨滴线) 
-			line(graph[i].left,graph[i].top,graph[i].right,graph[i].bottom);
+			setcolor(graph[i].color);
+			line(graph[i].left,graph[i].top,graph[i].right,graph[i].bottom);	
 		}
 	}
 }
@@ -464,7 +453,7 @@ int main()
 		TAG = 1;         //标记所有雨滴第一次初始化过了
 		PlaySound (TEXT("Materier/springRain.wav"),NULL,SND_FILENAME | SND_ASYNC| SND_LOOP );     //This is rain sound
 		frame = 0 ;
-		while(frame<=500)
+		while(frame<=600)
 		{
 				for(i=0; i<MAX; i++)  //绘制一帧雨的图片
 				{
@@ -505,7 +494,7 @@ int main()
 		TAG = 1;         //标记所有雨滴第一次初始化过了
 		PlaySound (TEXT("Materier/midMum.wav"),NULL,SND_FILENAME | SND_ASYNC| SND_LOOP );     //This is rain sound
 		frame = 0;
-		while(frame<=500)
+		while(frame<=600)
 		{
 				for(i=0; i<MAX; i++)  //绘制一帧雨的图片
 				{
@@ -546,7 +535,7 @@ int main()
 		TAG = 1;         //标记所有雨滴第一次初始化过了
 		PlaySound (TEXT("Materier/High.wav"),NULL,SND_FILENAME | SND_ASYNC| SND_LOOP );     //This is rain sound
 		frame = 0;
-		while(frame<=500)
+		while(frame<=800)
 		{
 			for(j=0; j<NUM; j++)
 			{  
@@ -611,7 +600,7 @@ int main()
 		TAG = 1;         //标记所有雨滴第一次初始化过了
 		PlaySound (TEXT("Materier/BaoYu.wav"),NULL,SND_FILENAME | SND_ASYNC| SND_LOOP );     //This is rain sound
 		frame = 0;
-		while(frame<=500)
+		while(frame<=1000)
 		{
 			for(j=0; j<NUM; j++)
 			{  
